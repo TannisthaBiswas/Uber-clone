@@ -13,6 +13,7 @@ const RideSelector = ({pickupCoordinates, dropoffCoordinates}) => {
              .then(data => {
                 setRideDuration(data.routes[0].duration /10)
              })
+             .catch((e) => console.log(e));
     },[pickupCoordinates, dropoffCoordinates])
   return (
     <Wrapper>
