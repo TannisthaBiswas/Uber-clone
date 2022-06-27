@@ -1,4 +1,4 @@
- const carList = 
+ export const carList = [
   {
     imgUrl: 'https://i.ibb.co/cyvcpfF/uberx.png',
     service: 'UberX',
@@ -23,5 +23,5 @@
     imgUrl: ' https://i.ibb.co/1nStPWT/uberblacksuv.png',
     service: 'Black SUV',
     multiplier: 2.8,
-  }
-export default carList
+  }]
+
